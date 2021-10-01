@@ -25,7 +25,7 @@ export default function Sprint1(props){
         <p>Another extra story was added for me to modify our Dockerfile in order to considerably reduce application image size and to remove the need to ./gradlew build our service every time we needed to have it up and running for debugging.</p>
        
         <p>Story points were ranked in importance and effort needed ranging between 0-10 story points max for each importance of the story we were assigned.</p>
-
+        <ImageContainer imageSrc={"images/sprint1/storypoints.png"}/>
         </Section>
         <Section title="Version Control">
         <p>For version control we mainly used git hub. Each of one of my stories were pulled from main on a separate branch with the proposed naming convention.</p>
