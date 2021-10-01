@@ -62,7 +62,7 @@ export default function Sprint1(props){
           during the sprint, I brought into importance with Tymofiy that for the entity model we will need at least a UUID in order to function with fetching data objects without calling them by their database Row Id’s because it is considered a security risk showing a linear order from the row id’s of the vet data we fetch form the database</p>
         <ImageContainer imageSrc={"images/sprint1/securityImplementation.png"}/>
 
-        <p>The implementation of a vetID also means that a DTO from the main entity will be required in order to only send to the front-end vet information that doesn't contain database row identifiers.</p>
+        <p>The implementation of a vetID also means that a DTO from the main entity will be required in order to only send to the front-end vet information that doesn&apos;t contain database row identifiers.</p>
 
         </Section>
         <Section title="Reviews">
