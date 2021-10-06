@@ -14,7 +14,7 @@ export default function Sprint1(props){
         <Section title="User Stories Summary">
         <p>My main user story was to do the implementation of a modal on vet name mouse hover.
         The story itself was decomposed very well which allowed for the completion of the story in a just a few days into the sprint after getting familiar with the current front-end framework we are working with
-        The acceptance criterions were relevant and realistic for the story:</p>
+        The acceptance criterias were relevant and realistic for the story:</p>
  
         <ul>
           <li>Vet First Name, Last Name, Specialty, Phone Number and Email must be visible on the UI element</li>
@@ -24,7 +24,7 @@ export default function Sprint1(props){
         
         <p>Another extra story was added for me to modify our Dockerfile in order to considerably reduce application image size and to remove the need to ./gradlew build our service every time we needed to have it up and running for debugging.</p>
        
-        <p>Story points were ranked in importance and effort needed ranging between 0-10 story points max for each importance of the story we were assigned.</p>
+        <p>Story points were ranked in importance and effort needed ranging between 0-10 story points max for each importance of the story we were assigned. But in regards of the accuracy of the story points given for my story 5 can be considered very far fetched for a simple modal implementation.</p>
 
         </Section>
         <Section title="Version Control">
@@ -53,7 +53,7 @@ export default function Sprint1(props){
         </p>
         <Preview codeSet="angular"/>
         <p>No major design patterns were needed for the implementation because it was mainly code implementation for the client-side code. .</p>
-        <p>In regards of internationalizing our story we only kept it readable for English speakers.</p>
+        <p>In regards to internationalization our story we only kept it readable for English speakers.</p>
 
         </Section>
         <Section title="Security">
@@ -66,7 +66,7 @@ export default function Sprint1(props){
 
         </Section>
         <Section title="Reviews">
-        <p>In regards of reviews, for this sprint the only proof of documents are results of code executions and examples added to the pull request but in regards of design documents none were provided.</p>
+        <p>In regards of reviews, for this sprint the only proof of documents are results of code executions and examples added to the pull request but in regards to design documents, none were provided.</p>
 	      <p>In order of corrective actions done to improve my code. It was basically do and finish the implementations. Trial and error was used testing AngularJs for the first time in order to figure out how to do implementation and logic using our current front-end framework.</p>
         <ImageContainer imageSrc={"images/sprint1/review1.png"}/>
 	      <p>When reviewing other people’s work, I always pulled from their branch and tested the service on my side in order to see if the application works on my device using Docker.</p>
@@ -80,11 +80,13 @@ export default function Sprint1(props){
         <Section title="Deployment">
         <p>My story was completed using CI/CD procedures. Code builds were done with the check of written tests and the Containerization of our vet’s service.</p>
         <ImageContainer imageSrc={"images/sprint1/container.png"}/>
-	      <p>In regards of deploying the microservice to AWS this isn’t something of importance for the current Sprint.</p>
+	      <p>In regards to deploying the microservice to AWS this isn’t something of importance for the current Sprint.</p>
 
         </Section>
         <Section title="Scrum and Agile Adherence">
-        <p>I demonstrated myself to my team as an active and thoughtful participant in all Scrum events.</p>
+        <p>I demonstrated myself to my team as an active and thoughtful participant in all Scrum events. 
+            During the stand-ups, for the people who identified problems, I would keep them after disbanding the 15 minute meeting in order to solve/assess their current roadblocks by giving away recommendation
+             or answers on how to tackle it, all done in order to help with the progress of the sprint.</p>
 <p>The only problems were at unexpected intervals where few scrum teammates were occupied in other areas such as events of real-life work, they must attend to. So, meetings were less frequent for a project of adequate importance. </p>
 	
 <p>We have reflected as a team that the things we will need to improve for our next sprint are: </p>
@@ -98,7 +100,7 @@ export default function Sprint1(props){
 
         </Section>
         <Section title="Scrum Roles">
-        <p>In the current sprint I was the Scrum Master I handled meeting where due and pressed my team on features if needed. The only problem I had as a scrum master was the scheduling of scrum meeting.</p>
+        <p>In the current sprint I was the Scrum Master I handled meeting where due and pressed my team on features if needed. The only problem I had as a scrum master was the scheduling of scrum meetings.</p>
 <p>As mentioned in Scrum and Agile Adherence meeting concentration during our Sprint time was low because of outside problems which prevented our whole team to be there for meetings. </p>
 	<p>But as a scrum master for the meetings, we took I always took notes in order to log the roadmap of our progress throughout the Sprint.</p>
 
