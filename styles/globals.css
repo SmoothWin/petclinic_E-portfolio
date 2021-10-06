@@ -214,7 +214,6 @@ li{
 }
 pre{
   word-break: normal !important;
-  overflow: scroll !important;
 }
 .hljs-string{
   color:red !important;
