@@ -5,10 +5,26 @@ import { useState } from 'react'
 import styles from '../styles/Home.module.css'
 
 import Sprint1 from '../components/Sprint1'
+import Sprint2 from '../components/Sprint2'
 
 export default function Home() {
   const [sprintSelected, setSprintSelected]=useState(null)
 
+  function sprintHoverSelect(sprintNum){
+    if(sprintSelected == null){
+      if(sprintNum == 1){
+        document.querySelector(".arrow").style.left = "-60px";
+      }
+      if(sprintNum == 2){
+        document.querySelector(".arrow").style.left = "65px";
+      }
+    }
+  }
+  function sprintHoverLeave(){
+    if(sprintSelected == null){
+      document.querySelector(".arrow").style.left = "0px";
+    }
+  }
   function selectSprint(sprintNum){
     setSprintSelected(sprintNum);
   }
@@ -18,6 +34,8 @@ export default function Home() {
   } if(sprintSelected == 1){
     containerContent = <Sprint1/>
       
+  } if(sprintSelected == 2){
+    containerContent = <Sprint2/>
   }
   return (
     <div>
@@ -31,7 +49,12 @@ export default function Home() {
       </Head>
     
       <div id="wrapper">
-      <nav id="navbar"><span className="navItem logo">Christian Chitanu&apos;s<br/>PetClinic E-Portfolio</span> <span className="navItem link"><a onClick={()=>selectSprint(1)}>Sprint 1</a></span></nav>
+      <nav id="navbar"><span className="navItem logo">Christian Chitanu&apos;s<br/>PetClinic E-Portfolio</span> 
+      <div className="navItemContainer">
+      <span className="navItem link"><a onMouseLeave={()=>sprintHoverLeave()} onMouseEnter={()=>sprintHoverSelect(1)} onClick={()=>selectSprint(1)}>Sprint 1</a></span>
+      <span className="navItem link"><a onMouseLeave={()=>sprintHoverLeave()} onMouseEnter={()=>sprintHoverSelect(2)} onClick={()=>selectSprint(2)}>Sprint 2</a></span>
+      </div>
+      </nav>
         <div className="container">
           {containerContent}
         </div>
