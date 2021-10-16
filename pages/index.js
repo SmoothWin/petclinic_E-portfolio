@@ -30,7 +30,7 @@ export default function Home() {
   }
   let containerContent;
   if(sprintSelected == null){
-    containerContent = <div className="message"><span className="please">Please select a sprint to start</span><img className="arrow" width="300px" src="https://visualpharm.com/assets/112/Up-595b40b85ba036ed117db6cd.svg"/></div>
+    containerContent = <div className="message"><span className="please">Please select a sprint to start</span><img className="arrow" width="100px" src="https://visualpharm.com/assets/112/Up-595b40b85ba036ed117db6cd.svg"/></div>
   } if(sprintSelected == 1){
     containerContent = <Sprint1/>
       
