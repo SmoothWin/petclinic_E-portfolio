@@ -132,7 +132,7 @@ export default function Sprint2(props){
         <Section title="Scrum Roles">
             <p>Our team&apos;s current scrum master during this sprint was exceptional. Compared to last sprint where scrum meetings weren&apos;t that common for this
                sprint the scrum master organized the stand-ups very well each scrum meeting took place very two days with a set schedule determined ahead of time.</p>
-                <p>In order to accomplish this, the scrum master organized all our schedules and desided to hold meetings for when we were all free from work and courses. The scrum master also announced the meetings ahead of time contrary to what the scrum master the previous sprint.</p>
+                <p>In order to accomplish this, the scrum master organized all our schedules and decided to hold meetings for when we were all free from work and courses. The scrum master also announced the meetings ahead of time contrary to what the scrum master the previous sprint.</p>
         </Section>
         <Section title="Progress">
           <p>During this sprint, my performance during this sprint was better than the previous one because of how I managed to 
