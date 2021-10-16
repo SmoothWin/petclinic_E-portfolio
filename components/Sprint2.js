@@ -74,7 +74,7 @@ export default function Sprint2(props){
 
         <p>With the addition of the Jacoco code coverage library, in this sprint I had to at least implement enough tests to have a code coverage to cover 90%. Here is an image displaying the current code coverage:</p>
         <ImageContainer imageSrc={"images/sprint2/codeCoverage.png"}/>
-        <p>Code coverage is above 90% but not 100% because my job was to implement the Jacoco library and add enough tests in order for Jacoco to make the build work and be implemented in the main branch for our microservice. The rest should be handled by the team members that added the code that doesn't have testing and vice-versa.</p>
+        <p>Code coverage is above 90% but not 100% because my job was to implement the Jacoco library and add enough tests in order for Jacoco to make the build work and be implemented in the main branch for our microservice. The rest should be handled by the team members that added the code that doesn&apos;t have testing and vice-versa.</p>
         <p>The use of all 3 libraries (JUnit 5, Mockito, and Hamcrest) were needed in order to compose the tests needed for this story to be completed.</p>
         </Section>
         <Section title="Code">
@@ -108,7 +108,7 @@ export default function Sprint2(props){
             <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/153">https://github.com/cgerard321/champlain_petclinic/pull/153</a>
             <p>Throughout the reviewing process corrective actions were done acconrdingly throughout each pull request submissions such as 
               abiding into fixing errors and doing refactoring changes in order to remove obsolete code.</p>
-            <p>When reviewing other people's work, I improved the quality of their code by understanding their story and implementation and requesting changes 
+            <p>When reviewing other people&apos;s work, I improved the quality of their code by understanding their story and implementation and requesting changes 
               in order for the submitted pull requests to fit merging requirments and fixing unintended changes we do not want to merge onto main with.</p>
               <ImageContainer imageSrc={"images/sprint2/fixRequest.png"}/>
               <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/156">https://github.com/cgerard321/champlain_petclinic/pull/156</a>
@@ -124,20 +124,22 @@ export default function Sprint2(props){
           <p>There is still no deployment on AWS</p>
         </Section>
         <Section title="Scrum and Agile Adherence">
-        <p>I demonstrated myself to my team as an active and thoughtful participant in all Scrum events. I always attended the required scrum meetings as of the scrum master's requirements</p>
-        <p>I think for this sprint there aren't any much areas I could've done better in regards of scrum roles because my main job this sprint was to attend scrum meetings and adhere to the sprint deadline.</p>
+        <p>I demonstrated myself to my team as an active and thoughtful participant in all Scrum events. I always attended the required scrum meetings as of the scrum master&apos;s requirements</p>
+        <p>I think for this sprint there aren&apos;t any much areas I could&apos;ve done better in regards of scrum roles because my main job this sprint was to attend scrum meetings and adhere to the sprint deadline.</p>
         <p>Team reflection:</p>
           <ImageContainer imageSrc={"images/sprint2/scrumReflection.jpg"}/>
         </Section>
         <Section title="Scrum Roles">
-
+            <p>Our team&apos;s current scrum master during this sprint was exceptional. Compared to last sprint where scrum meetings weren&apos;t that common for this
+               sprint the scrum master organized the stand-ups very well each scrum meeting took place very two days with a set schedule determined ahead of time.</p>
+                <p>In order to accomplish this, the scrum master organized all our schedules and desided to hold meetings for when we were all free from work and courses. The scrum master also announced the meetings ahead of time contrary to what the scrum master the previous sprint.</p>
         </Section>
         <Section title="Progress">
           <p>During this sprint, my performance during this sprint was better than the previous one because of how I managed to 
             work on the stories step by step and work on then early enough in order to finish a all of the stories a few days earlier compared to the last sprint.</p>
           <p>From the previous sprint retrospective: 
             <ul>
-              <li>I took into consideration during this sprint to provide extensive proof of the branch's code implementations with diagrams if needed such as my vet image field implementation story.</li>
+              <li>I took into consideration during this sprint to provide extensive proof of the branch&apos;s code implementations with diagrams if needed such as my vet image field implementation story.</li>
               <ImageContainer imageSrc={"images/sprint2/reviewHelp.png"}/>
               <li>I followed a much more intensive CI/CD approach for when we create commits (a decent change = commit right away)</li>
               <ImageContainer imageSrc={"images/sprint2/commits.png"}/>
