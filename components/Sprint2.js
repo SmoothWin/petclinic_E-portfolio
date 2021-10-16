@@ -72,8 +72,9 @@ export default function Sprint2(props){
           href="https://github.com/cgerard321/champlain_petclinic/blob/feat/VETS-CPC-240_Jacoco_Testing_Upgrade/vets-service/src/test/java/com/petclinic/vets/presentationlayer/VetResourceTest.java"> file</a>.
           <br/>Other than this small issue, the tests were developed with good quality in mind respecting the core reasoning and use of the tests created.</p>
 
-        <p>With the addition of the Jacoco code coverage library, in this sprint I had to at least implement enough tests to have a code coverage to cover 90%.</p>
-        <p>Code coverage is above 90% but not 100% because my job was to implement the Jacoco library and add enough tests in order for Jacoco to make the build work.</p>
+        <p>With the addition of the Jacoco code coverage library, in this sprint I had to at least implement enough tests to have a code coverage to cover 90%. Here is an image displaying the current code coverage:</p>
+        <ImageContainer imageSrc={"images/sprint2/codeCoverage.png"}/>
+        <p>Code coverage is above 90% but not 100% because my job was to implement the Jacoco library and add enough tests in order for Jacoco to make the build work. The rest should be handled by the team members that added the code that doesn't have testing and vice-versa.</p>
 
         </Section>
         <Section title="Code">
