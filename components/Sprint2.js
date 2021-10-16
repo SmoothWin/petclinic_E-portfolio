@@ -42,7 +42,7 @@ export default function Sprint2(props){
               <li>The modal must have more data for when the table element needs to display less data.</li>
               Story points ={'>'} 3
               <br/>
-              <a className="pullLink" href="https://github.com/cgerard321/champlain_petclinic/pull/118">Link for the pull request</a>
+              <a target="_blank" rel="noreferrer" className="pullLink" href="https://github.com/cgerard321/champlain_petclinic/pull/118">Link for the pull request</a>
             </ul>
   </li>
 </ul>
@@ -56,12 +56,25 @@ export default function Sprint2(props){
           <ImageContainer imageSrc={"images/sprint2/branch1.png"}/>
           <ImageContainer imageSrc={"images/sprint2/branch2.png"}/>
           <ImageContainer imageSrc={"images/sprint2/branch3.png"}/>
-          <p>In this sprint, the use of commits were done more often and pushes done under the same standard I used for the first sprint. 
+          <p>In this sprint, the use of commits was done more often and pushes done under the same standard I used for the first sprint. 
             <p>For main features of the story such as methods and changes I always finish with commits and push when I am done for the feature, take a break or plan to continue my work in another environment.
               </p>
             </p>
           <p>Pull requests were made and used with the proposed naming convention with the addition of the vets label for better pull request search.</p>
           <ImageContainer imageSrc={"images/sprint2/pullnaming.png"}/>
+        </Section>
+        <Section title="Test Driven Development">
+        <p>In regards of TDD implementation during this sprint, I had to write alot of lines of code in order to fix and add alot of tests in order for all of them to do follow the right testing implementation.
+           All of the tests are well documented through this pull request </p>
+
+        <p>Unit tests are done with high quality except for a few instances where we use the same mock data accross a few tests that were considered useless (the same reoccuring vet entity instantiation and setting of data) as seen on this  
+          <br/><a className="linkGitFile" target="_blank" rel="noreferrer" 
+          href="https://github.com/cgerard321/champlain_petclinic/blob/feat/VETS-CPC-240_Jacoco_Testing_Upgrade/vets-service/src/test/java/com/petclinic/vets/presentationlayer/VetResourceTest.java"> file</a>.
+          <br/>Other than this small issue, the tests were developed with good quality in mind respecting the core reasoning and use of the tests created.</p>
+
+        <p>With the addition of the Jacoco code coverage library, in this sprint I had to at least implement enough tests to have a code coverage to cover 90%.</p>
+        <p>Code coverage is above 90% but not 100% because my job was to implement the Jacoco library and add enough tests in order for Jacoco to make the build work.</p>
+
         </Section>
         <Section title="Code">
 

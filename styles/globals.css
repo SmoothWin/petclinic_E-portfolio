@@ -152,6 +152,13 @@ nav{
   background-color:rgb(3, 9, 15, 0.9);
 
 }
+.linkGitFile{
+  color:#a270f5;
+  font-size: 26px;
+}
+.linkGitFile:hover{
+  text-decoration: underline;
+}
 
 img{
   width: 100%;
