@@ -7,7 +7,7 @@ function Section(props){
         setMounted(true);
     })
     useEffect(()=>{
-        ScrollOut({targets:".sectionContainer", once:true, threshold:0.50});
+        ScrollOut({targets:".sectionContainer", once:true, threshold:0.30});
     },[mounted])
     return(
         <section onMouseLeave={async(e)=>{await e.target.querySelector(".titleContainer div")?.classList.remove("active")}} onMouseEnter={async(e)=>{await e.target.querySelector(".titleContainer div")?.classList.add("active")}} className="sectionContainer">

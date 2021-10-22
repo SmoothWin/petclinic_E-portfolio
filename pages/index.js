@@ -13,10 +13,13 @@ export default function Home() {
   function sprintHoverSelect(sprintNum){
     if(sprintSelected == null){
       if(sprintNum == 1){
-        document.querySelector(".arrow").style.left = "-60px";
+        document.querySelector(".arrow").style.left = "-115px";
       }
       if(sprintNum == 2){
-        document.querySelector(".arrow").style.left = "65px";
+        document.querySelector(".arrow").style.left = "0px";
+      }
+      if(sprintNum == 3){
+        document.querySelector(".arrow").style.left = "115px";
       }
     }
   }
@@ -37,6 +40,9 @@ export default function Home() {
   } if(sprintSelected == 2){
     containerContent = <Sprint2/>
   }
+  if(sprintSelected == 3){
+    containerContent = <Sprint2/>
+  }
   return (
     <div>
       <Head>
@@ -53,6 +59,7 @@ export default function Home() {
       <div className="navItemContainer">
       <span className="navItem link"><a onMouseLeave={()=>sprintHoverLeave()} onMouseEnter={()=>sprintHoverSelect(1)} onClick={()=>selectSprint(1)}>Sprint 1</a></span>
       <span className="navItem link"><a onMouseLeave={()=>sprintHoverLeave()} onMouseEnter={()=>sprintHoverSelect(2)} onClick={()=>selectSprint(2)}>Sprint 2</a></span>
+      <span className="navItem link"><a onMouseLeave={()=>sprintHoverLeave()} onMouseEnter={()=>sprintHoverSelect(3)} onClick={()=>selectSprint(3)}>Sprint 3</a></span>
       </div>
       </nav>
         <div className="container">
