@@ -1,7 +1,8 @@
 
 
 import Section from './Section'
-import ImageContainer from '../components/ImageContainer'
+import Preview from './Preview'
+import ImageContainer from './ImageContainer'
 
 export default function Sprint2(props){
 
@@ -16,7 +17,7 @@ export default function Sprint2(props){
           <li> <p>Adding the Jacoco code coverage library for testing and creating/upgrading tests in order to reach a code coverage of 90%+</p>
           Acceptance Criteria:
             <ul>
-              <li>Pass 90%+ Jacoco test</li>
+              <li>Pass 90%+ jacoco test</li>
               Story points ={'>'} 8
               <br/>
           <a className="pullLink" href="https://github.com/cgerard321/champlain_petclinic/pull/153">Link for the pull request</a>
@@ -46,7 +47,7 @@ export default function Sprint2(props){
   </li>
 </ul>
 <p>The story point estimation for this sprint was done correctly where the easiest stories we ranked from 3 and below and because they weren’t considered very important.</p>
-<p>For the Jacoco story the story point given to it was self-explanatory. The library implementation was paramount and must be taken care of as quickly as possible to deliver the code coverage library to all our vet service developer. Also, the test additions and refactoring took a lot of time to get this story done.</p>
+<p>For the jacoco story the story point given to it was self-explanatory. The library implementation was paramount and must be taken care of as quickly as possible to deliver the code coverage library to all our vet service developer. Also, the test additions and refactoring took a lot of time to get this story done.</p>
 
 
         </Section>
@@ -63,10 +64,10 @@ export default function Sprint2(props){
           <ImageContainer imageSrc={"images/sprint2/pullnaming.png"}/>
         </Section>
         <Section title="Test Driven Development">
-        <p>In regards of TDD implementation during this sprint, I had to write a lot of lines of code in order to fix and add a lot of tests in order for all of them to do follow the right testing implementation.
+        <p>In regards of TDD implementation during this sprint, I had to write alot of lines of code in order to fix and add alot of tests in order for all of them to do follow the right testing implementation.
            All of the tests are well documented through this pull request </p>
 
-        <p>Unit tests are done with high quality except for a few instances where we use the same mock data across a few tests that were considered useless (the same recurring vet entity instantiation and setting of data) as seen on this  
+        <p>Unit tests are done with high quality except for a few instances where we use the same mock data accross a few tests that were considered useless (the same reoccuring vet entity instantiation and setting of data) as seen on this  
           <br/><a className="linkGitFile" target="_blank" rel="noreferrer" 
           href="https://github.com/cgerard321/champlain_petclinic/blob/feat/VETS-CPC-240_Jacoco_Testing_Upgrade/vets-service/src/test/java/com/petclinic/vets/presentationlayer/VetResourceTest.java"> file</a>.
           <br/>Other than this small issue, the tests were developed with good quality in mind respecting the core reasoning and use of the tests created.</p>
@@ -98,17 +99,17 @@ export default function Sprint2(props){
           <p>My stories in this sprint did not need any security implementations.</p>
         </Section>
         <Section title="Reviews">
-          <p>In this sprint, reviewing standards were the same as last sprint (selecting only reviewers part of our scrum team and no other team members), but the difference from the last sprint was the addition of 
+          <p>In this sprint, reviewing standards were the same as last sprint (selecting only reviewers part of our scrum team and no other teammembers), but the difference from the last sprint was the addition of 
             extra proof of concept using diagrams and implementation images such as shown in these pull requests and images:</p>
             <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/147">https://github.com/cgerard321/champlain_petclinic/pull/147</a>
             <ImageContainer imageSrc={"images/sprint2/proofOfReviewJacoco.png"}/>
             <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/118">https://github.com/cgerard321/champlain_petclinic/pull/118</a>
             <br/>
             <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/153">https://github.com/cgerard321/champlain_petclinic/pull/153</a>
-            <p>Throughout the reviewing process corrective actions were done accordingly throughout each pull request submissions such as 
+            <p>Throughout the reviewing process corrective actions were done acconrdingly throughout each pull request submissions such as 
               abiding into fixing errors and doing refactoring changes in order to remove obsolete code.</p>
             <p>When reviewing other people&apos;s work, I improved the quality of their code by understanding their story and implementation and requesting changes 
-              in order for the submitted pull requests to fit merging es and fixing unintended changes we do not want to merge onto main with.</p>
+              in order for the submitted pull requests to fit merging requirments and fixing unintended changes we do not want to merge onto main with.</p>
               <ImageContainer imageSrc={"images/sprint2/fixRequest.png"}/>
               <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/156">https://github.com/cgerard321/champlain_petclinic/pull/156</a>
               <ImageContainer imageSrc={"images/sprint2/fixRequest2.png"}/>
