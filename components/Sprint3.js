@@ -113,40 +113,52 @@ export default function Sprint2(props){
           <p>As ensuring compliance. I didn’t really need intervene often because my teammates and I followed current conventions and policies given by the actual project owner.</p>
         </Section>
         <Section title="End-to-End Tests">
-            <p>No selenium testing was done for this sprint because the selenium testing service is not yet present.</p>
+            <p>During the 3rd sprint, this was where the most of my extra lines of code were used in.</p>
+            <p>Since the 1st sprint I have implemented a selenium test which wasn’t integrated on the actual service because we didn’t yet have a selenium service during our 2 first sprints.</p>
+            <p>Here are the pull requests that implemented the selenium files:</p>
+            <p>Vet Service Mobile Version (test(VETS-CPC-399))</p>
+            <a href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/14/files" className="linkGitFile" target="_blank" rel="noreferrer">https://github.com/cgerard321/champlain_petclinic_selenium/pull/14/files</a>
+            <p>Login Test Helper Selenium (test(VETS-CPC-499))</p>
+            <a href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/11/files" className="linkGitFile" target="_blank" rel="noreferrer">https://github.com/cgerard321/champlain_petclinic_selenium/pull/11/files</a>
+            <p>I specifically wrote selenium tests for the vet list page where I tested the:</p>
+            <ul>
+              <li>
+                Modal appearance when the mouse hovers the vet’s name
+              </li>
+              <li>
+                The responsiveness of the vet list table whether columns disappear and appear on the vet’s modal depending on the current viewport size.
+              </li>
+            </ul>
         </Section>
         <Section title="Deployment">
-          <p>My story was completed using CI/CD procedures. Code builds were done with the check of written tests and the Containerization of our vet’s service.</p>
-          <ImageContainer imageSrc={"images/sprint2/dockercomposeProof.png"}/>
+          <p>In regards of following CI/CD procedures, I always made code builds of the full application (it also does unit tests) and dockize the microservice to test implementations.</p>
+          <p>I always do commits and push my changes to the branch constantly to receive feedback from my teammates and review my code when pull requests are up.</p>
+          <ImageContainer imageSrc={"images/sprint3/commitsProof.png"}/>
           <p>There is still no deployment on AWS</p>
         </Section>
         <Section title="Scrum and Agile Adherence">
-        <p>I demonstrated myself to my team as an active and thoughtful participant in all Scrum events. I always attended the required scrum meetings as of the scrum master&apos;s requirements</p>
-        <p>I think for this sprint there aren&apos;t any much areas I could&apos;ve done better in regards of scrum roles because my main job this sprint was to attend scrum meetings and adhere to the sprint deadline.</p>
+        <p>During this sprint, my performance during this sprint was better than the previous one because of how I managed to 
+            work on the stories step by step and work on then early enough in order to finish a all of the stories a few days earlier compared to the last sprint.</p>
+          <p>There weren’t that many scrum events started by the scrum master this sprint, but I always attended when the scrum events took place.</p>
+          <p>In regards of agile adherence, I directly communicated with my scrum teammates regarding my implementations and the general gist of things.</p>
+          <ImageContainer imageSrc={"images/sprint3/teammateComs.png"}/>
         <p>Team reflection:</p>
-          <ImageContainer imageSrc={"images/sprint2/scrumReflection.jpg"}/>
+          <ImageContainer imageSrc={"images/sprint3/reflection.jpg"}/>
         </Section>
         <Section title="Scrum Roles">
-            <p>Our team&apos;s current scrum master during this sprint was exceptional. Compared to last sprint where scrum meetings weren&apos;t that common for this
-               sprint the scrum master organized the stand-ups very well each scrum meeting took place very two days with a set schedule determined ahead of time.</p>
-                <p>In order to accomplish this, the scrum master organized all our schedules and decided to hold meetings for when we were all free from work and courses. The scrum master also announced the meetings ahead of time contrary to what the scrum master the previous sprint.</p>
+            <p>Our team’s current scrum master during this sprint was a bit worse than our previous Scrum master. Meetings were held, but there weren’t a lot of them. I’d say we only had 3 meetings compared to the previous one. But overall, the scrum master did well during the scrum stand-ups and asked each scrum team member the desired questions and respected the flow of the stand-up.</p>
+                <p>The product owner during this sprint was exceptional. He was very informative and vocal about our implementations. Feedback was very present, and the product owner participated in each conversation to clarify misconceptions from the stories he created. The PO was very competent during this sprint.</p>
         </Section>
         <Section title="Progress">
-          <p>During this sprint, my performance during this sprint was better than the previous one because of how I managed to 
-            work on the stories step by step and work on then early enough in order to finish a all of the stories a few days earlier compared to the last sprint.</p>
-          <p>From the previous sprint retrospective: 
-            <ul>
-              <li>I took into consideration during this sprint to provide extensive proof of the branch&apos;s code implementations with diagrams if needed such as my vet image field implementation story.</li>
-              <ImageContainer imageSrc={"images/sprint2/reviewHelp.png"}/>
-              <li>I followed a much more intensive CI/CD approach for when we create commits (a decent change = commit right away)</li>
-              <ImageContainer imageSrc={"images/sprint2/commits.png"}/>
-              <li>Implemented descriptive comments on what are my implementations on the files I changed/added during the sprint.</li>
-              <ImageContainer imageSrc={"images/sprint2/comments1.png"}/>
-              <ImageContainer imageSrc={"images/sprint2/comments2.png"}/>
-              <ImageContainer imageSrc={"images/sprint2/comments3.png"}/>
-            </ul>
-          </p>
-          
+          <p>My performance during this sprint is like the previous one where my performance only increased a tad bit since the last sprint. Since our group previous reflection, I have improved the commenting of the code bit more explaining the implementation and associating the current ticket to the comment in the file while also commenting for a few files, lines of code.</p>
+          <ImageContainer imageSrc={"images/sprint3/comments1.png"}/>
+          <a href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/6/files" className="linkGitFile" target="_blank" rel="noreferrer">https://github.com/cgerard321/champlain_petclinic_selenium/pull/6/files</a>
+          <ImageContainer imageSrc={"images/sprint3/comment2.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/comment3.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/comment4.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/comment5.png"}/>
+          <p>More files:</p>
+          <a href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/14/files" className="linkGitFile" target="_blank" rel="noreferrer">https://github.com/cgerard321/champlain_petclinic_selenium/pull/14/files</a>
         </Section>
         <div><button className="btn" onClick={scrollTop}>Top</button></div>
       </div>
