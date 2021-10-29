@@ -61,47 +61,38 @@ export default function Sprint2(props){
           <p>Each one of my stories and new stories are worked on separate branches of the GitHub repository.</p>
           <p>Pushes and commits were done at reasonable intervals. Every definitive implementation of code was accompanied with a commit. When work is then done the current working branch is then pushed on the branch on the remote repository.</p>
           <p>Pull requests were created and followed correct naming convention.</p>
-          <ImageContainer imageSrc={"images/sprint2/branch1.png"}/>
-          <ImageContainer imageSrc={"images/sprint2/branch2.png"}/>
-          <ImageContainer imageSrc={"images/sprint2/branch3.png"}/>
-          <p>In this sprint, the use of commits was done more often, and pushes done under the same standard I used for the first sprint. 
-            <p>For main features of the story such as methods and changes I always finish with commits and push when I am done for the feature, take a break or plan to continue my work in another environment.
-              </p>
-            </p>
-          <p>Pull requests were made and used with the proposed naming convention with the addition of the vets label for better pull request search.</p>
-          <ImageContainer imageSrc={"images/sprint2/pullnaming.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/addSwagger.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/addSwaggerCommits.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/seleniumHelper.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/seleniumHelper2.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/mobileVersion.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/mobileVersionSelenium.png"}/>
         </Section>
         <Section title="Test Driven Development">
-        <p>In regards of TDD implementation during this sprint, I had to write alot of lines of code in order to fix and add alot of tests in order for all of them to do follow the right testing implementation.
-           All of the tests are well documented through this pull request </p>
-
-        <p>Unit tests are done with high quality except for a few instances where we use the same mock data accross a few tests that were considered useless (the same reoccuring vet entity instantiation and setting of data) as seen on this  
-          <br/><a className="linkGitFile" target="_blank" rel="noreferrer" 
-          href="https://github.com/cgerard321/champlain_petclinic/blob/feat/VETS-CPC-240_Jacoco_Testing_Upgrade/vets-service/src/test/java/com/petclinic/vets/presentationlayer/VetResourceTest.java"> file</a>.
-          <br/>Other than this small issue, the tests were developed with good quality in mind respecting the core reasoning and use of the tests created.</p>
-
-        <p>With the addition of the Jacoco code coverage library, in this sprint I had to at least implement enough tests to have a code coverage to cover 90%. Here is an image displaying the current code coverage:</p>
-        <ImageContainer imageSrc={"images/sprint2/codeCoverage.png"}/>
-        <p>Code coverage is above 90% but not 100% because my job was to implement the Jacoco library and add enough tests in order for Jacoco to make the build work and be implemented in the main branch for our microservice. The rest should be handled by the team members that added the code that doesn&apos;t have testing and vice-versa.</p>
-        <p>The use of all 3 libraries (JUnit 5, Mockito, and Hamcrest) were needed in order to compose the tests needed for this story to be completed.</p>
+        <p>No test-driven development was needed for the stories I had in this sprint. Unit tests weren’t needed because the only tests that were needed to be written were end-to-end tests (Selenium).</p>
         </Section>
         <Section title="Code">
-            <p>For each 1 of my 3 stories all of the code written meet the requirements set forth in the story description and acceptance criteria. </p>
-            <p>Jacoco Story:</p>
-            <ImageContainer imageSrc={"images/sprint2/codeCoverage.png"}/>
-            <p>Add Vet Image Field:</p>
-              <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/147">https://github.com/cgerard321/champlain_petclinic/pull/147</a>
-            <p>Modal and Table UI elements for better UI feel:</p>
-            <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/153">https://github.com/cgerard321/champlain_petclinic/pull/153</a>
+            <p>All the code for the stories I was responsible for meet the requirements set forth in the story description and acceptance criteria. </p>
+            <p>Add swagger documentation (feat(VETS-CPC-376))</p>
+            <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/202/files">https://github.com/cgerard321/champlain_petclinic/pull/202/files</a>
+            <p>Vet Service Mobile Version (feat(VETS-CPC-399))</p>
+              <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/226/files">https://github.com/cgerard321/champlain_petclinic/pull/226/files</a>
+              <p>Vet Service Mobile Version (test(VETS-CPC-399))</p>
+            <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/14/files">https://github.com/cgerard321/champlain_petclinic_selenium/pull/6/files</a>
+            <p>Login Test Helper Selenium (test(VETS-CPC-499))</p>
+            <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/6/files">https://github.com/cgerard321/champlain_petclinic_selenium/pull/6/files</a>
+            <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/11/files">https://github.com/cgerard321/champlain_petclinic_selenium/pull/14/files</a>
             <p>In regards of  the selected appropriate graphic elements as displayed in the images above there were only changes for this criteria for one story  where the modal and table needed to be responsive and adhere for a better readability of from the result of our service on the front-end.</p>
             <p>Systems behavior was appropriately. The addition/refactoring of tests are done in order to simulate the system’s behavior, the addition of the image field was a quality-of-life change done to add to the front-end the possibility to display custom images associated to the vets existing in our system and the changed to the table and modal UI aided with the intended user experience set forth by the system’s current architecture.</p>
             <p>In regard of system’s design pattern, the creation of new files was needed in order to organize the tests files for better file organization as displayed inside this test folder.</p>
             <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/tree/feat/VETS-CPC-240_Jacoco_Testing_Upgrade/vets-service/src/test/java/com/petclinic/vets/presentationlayer">
               https://github.com/cgerard321/champlain_petclinic/tree/feat/VETS-CPC-240_Jacoco_Testing_Upgrade/vets-service/src/test/java/com/petclinic/vets/presentationlayer</a>
-            <p>Other than those implementations regarding data structures and design patterns nothing much was added and changed because the sprint was mainly focused on the refactoring and upgrade of our current implementation derived from our previous sprint.</p>
-            <p>In regards of Internationalization it is still only for English speakers.</p>
-            <p>For creating queries it was already implemented beforehand by other developers</p>
-
+            <p>In regards of the selected appropriate graphic elements, the only story responsible for some interaction with graphic elements was the Vet Service Mobile Version where some UI components needed some changes in order to fit the small viewports.</p>
+            <p>Images can be found in <a href="https://github.com/cgerard321/champlain_petclinic/pull/226" target="_blank" rel="noreferrer">this</a> pull request</p>
+            <p>Data structures and design patterns weren’t needed much for the service code, but for end-to-end tests a pattern was set to at least organize my selenium files inside their respective service folder (vets) inside the selenium service.</p>
+            <ImageContainer imageSrc={"images/sprint3/pattern.png"}/>
+            <p>Regarding Internationalization, the only supported language at this time is English.</p>
+            <p>In this sprint no database files were changes neither the models associated with the Vets service.</p>
         </Section>
         <Section title="Security">
           <p>My stories in this sprint did not need any security implementations.</p>
