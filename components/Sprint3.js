@@ -95,24 +95,22 @@ export default function Sprint2(props){
             <p>In this sprint no database files were changes neither the models associated with the Vets service.</p>
         </Section>
         <Section title="Security">
-          <p>My stories in this sprint did not need any security implementations.</p>
+          <p>No security implementations were done in the stories I had for this sprint it was mainly documentation, selenium tests and making UI elements mobile-viewable.</p>
         </Section>
         <Section title="Reviews">
-          <p>In this sprint, reviewing standards were the same as last sprint (selecting only reviewers part of our scrum team and no other teammembers), but the difference from the last sprint was the addition of 
-            extra proof of concept using diagrams and implementation images such as shown in these pull requests and images:</p>
-            <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/147">https://github.com/cgerard321/champlain_petclinic/pull/147</a>
-            <ImageContainer imageSrc={"images/sprint2/proofOfReviewJacoco.png"}/>
-            <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/118">https://github.com/cgerard321/champlain_petclinic/pull/118</a>
-            <br/>
-            <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/153">https://github.com/cgerard321/champlain_petclinic/pull/153</a>
-            <p>Throughout the reviewing process corrective actions were done acconrdingly throughout each pull request submissions such as 
-              abiding into fixing errors and doing refactoring changes in order to remove obsolete code.</p>
-            <p>When reviewing other people&apos;s work, I improved the quality of their code by understanding their story and implementation and requesting changes 
-              in order for the submitted pull requests to fit merging requirments and fixing unintended changes we do not want to merge onto main with.</p>
-              <ImageContainer imageSrc={"images/sprint2/fixRequest.png"}/>
-              <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/156">https://github.com/cgerard321/champlain_petclinic/pull/156</a>
-              <ImageContainer imageSrc={"images/sprint2/fixRequest2.png"}/>
-              <a className="linkGitFile" target="_blank" rel="noreferrer" href="https://github.com/cgerard321/champlain_petclinic/pull/132">https://github.com/cgerard321/champlain_petclinic/pull/132</a>
+          <p>In this sprint, reviewing standards are like the previous sprints but compared to the 2nd sprint I asked started review requests with more questions compared to direct statements and then following up on some general recommendations.</p>
+          <p>For all the pull requests except main reviewers were mostly my sprint teammates and other members are part/associated to the implementation.</p>
+            <ImageContainer imageSrc={"images/sprint3/reviews.png"}/>
+          <p>For all the stories pull requests I gave images and examples on how the code works/looks to ensure reviewers understand my implementations</p>
+          <ImageContainer imageSrc={"images/sprint3/swaggerRev.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/mobileSeleniumRev.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/mobileRev.png"}/>
+          <p>When requesting changes on the code of other developers I helped improve the quality of their code by understanding their features and recommending changes according to the current requirement of the project.</p>
+          <p>Reviewed pull request:</p>
+          <a href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/8" className="linkGitFile" target="_blank" rel="noreferrer">https://github.com/cgerard321/champlain_petclinic_selenium/pull/8</a>
+          <ImageContainer imageSrc={"images/sprint3/reviewOther.png"}/>
+          <ImageContainer imageSrc={"images/sprint3/reviewOther2.png"}/>
+          <p>As ensuring compliance. I didn’t really need intervene often because my teammates and I followed current conventions and policies given by the actual project owner.</p>
         </Section>
         <Section title="End-to-End Tests">
             <p>No selenium testing was done for this sprint because the selenium testing service is not yet present.</p>

@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 
 import Sprint1 from '../components/Sprint1'
 import Sprint2 from '../components/Sprint2'
+import Sprint3 from '../components/Sprint3'
 
 export default function Home() {
   const [sprintSelected, setSprintSelected]=useState(null)
@@ -41,7 +42,7 @@ export default function Home() {
     containerContent = <Sprint2/>
   }
   if(sprintSelected == 3){
-    containerContent = <Sprint2/>
+    containerContent = <Sprint3/>
   }
   return (
     <div>
