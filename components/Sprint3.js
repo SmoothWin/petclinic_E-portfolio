@@ -12,47 +12,55 @@ export default function Sprint2(props){
     return (
         <div className="sprintContainer">
         <Section title="User Stories Summary">
-        <p>My user stories were: </p>
+        <p>My user stories are: </p>
         <ul>
-          <li> <p>Adding the Jacoco code coverage library for testing and creating/upgrading tests in order to reach a code coverage of 90%+</p>
+          Documentation + Wiki
+          <li> <p>Goal: Creating the service’s Wiki page and adding Swagger Documentation</p>
           Acceptance Criteria:
             <ul>
-              <li>Pass 90%+ jacoco test</li>
-              Story points ={'>'} 8
+              <li>Wiki page is present on GitHub</li>
+              <li>Swagger documentation is present and complete</li>
+              Story points ={'>'} 4
               <br/>
-          <a className="pullLink" href="https://github.com/cgerard321/champlain_petclinic/pull/153">Link for the pull request</a>
+          <a className="pullLink" href="https://github.com/cgerard321/champlain_petclinic/pull/202">Link for the pull request</a>
             </ul>
           </li>
-          <li><p>Upgrade the Vet Fields (Add the image field to the vet entity)</p>
+          Login Test Helper for Selenium
+          <li><p>Make a helper class that will help other users integrate the login process for each selenium tests</p>
           Acceptance Criteria:
             <ul>
-              <li>New fields should be present </li>
-              Story points ={'>'} 2
+              <li>The test needs to pass the login phase</li>
+              <li>After the end of the test the helper will return the Webdriver object</li>
+              <li>Future testers can use the return of the Webdriver object in order to do their real tests</li>
+              Story points ={'>'} 3
               <br/>
-            <a className="pullLink" href="https://github.com/cgerard321/champlain_petclinic/pull/147">Link for the pull request</a>
+            <a className="pullLink" href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/6">Link for the 1st pull request</a>
+            <a className="pullLink" href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/11">Link for the 2nd pull request</a>
             </ul>
 
           </li>
-          <li><p>Upgrade current Modal and Table UI elements for better UI feel</p>
+          Vet Service Mobile Version
+          <li><p>Make the Vet Service Adapted to mobiles and smaller screen</p>
           Acceptance Criteria:
             <ul>
-              <li>Should have all the appropriate field</li>
-              <li>Modal and table html elements must be responsive</li>
-              <li>The modal must have less data when the table has all/most of its data</li>
-              <li>The modal must have more data for when the table element needs to display less data.</li>
-              Story points ={'>'} 3
+              <li>The vet service should resize all its UI for different screen size</li>
+              <li>The UI should be appealing</li>
+              <li>Selenium testing should be added too</li>
+              Story points ={'>'} 7
               <br/>
-              <a target="_blank" rel="noreferrer" className="pullLink" href="https://github.com/cgerard321/champlain_petclinic/pull/118">Link for the pull request</a>
+              <a target="_blank" rel="noreferrer" className="pullLink" href="https://github.com/cgerard321/champlain_petclinic/pull/226">Link for the pull request</a>
+              <a target="_blank" rel="noreferrer" className="pullLink" href="https://github.com/cgerard321/champlain_petclinic_selenium/pull/14">Link for the Selenium pull request</a>
             </ul>
   </li>
 </ul>
-<p>The story point estimation for this sprint was done correctly where the easiest stories we ranked from 3 and below and because they weren’t considered very important.</p>
-<p>For the jacoco story the story point given to it was self-explanatory. The library implementation was paramount and must be taken care of as quickly as possible to deliver the code coverage library to all our vet service developer. Also, the test additions and refactoring took a lot of time to get this story done.</p>
 
 
         </Section>
         <Section title="Version Control">
-          <p>For version control we mainly used git hub. Each of one of my stories were pulled from main on a separate branch with the proposed naming convention.</p>
+          <p>I have used version control correctly, naming conventions for branches, pull requests and the commit intervals were done with great care and attention.</p>
+          <p>Each one of my stories and new stories are worked on separate branches of the GitHub repository.</p>
+          <p>Pushes and commits were done at reasonable intervals. Every definitive implementation of code was accompanied with a commit. When work is then done the current working branch is then pushed on the branch on the remote repository.</p>
+          <p>Pull requests were created and followed correct naming convention.</p>
           <ImageContainer imageSrc={"images/sprint2/branch1.png"}/>
           <ImageContainer imageSrc={"images/sprint2/branch2.png"}/>
           <ImageContainer imageSrc={"images/sprint2/branch3.png"}/>
